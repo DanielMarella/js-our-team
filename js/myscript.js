@@ -10,32 +10,48 @@
 // Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto xxx
 
 // MILESTONE 2:
-// Stampare le stesse informazioni su DOM sottoforma di stringhe
+// Stampare le stesse informazioni su DOM sottoforma di stringhe xxxx
+
+// BONUS 1:
+// Trasformare la stringa foto in una immagine effettiva xx
 
 
 // Wayne Barnett     ounder & CEO      wayne-barnett-founder-ceo.jpg
 // Angela Caroll     Chief Editor      angela-caroll-chief-editor.jpg
 // Walter Gordon     Office Manager    walter-gordon-office-manager.jpg
-// Angela Lopez      Social Media      Manager  angela-lopez-social-media-manager.jpg
+// Angela Lopez      Social Media Manager  angela-lopez-social-media-manager.jpg
 // Scott Estrada     Developer         scott-estrada-developer.jpg
 // Barbara Ramos     Graphic Designer  barbara-ramos-graphic-designer.jpg
 
 
 const team = [];
 
+
 const userOne = {
     name : 'Wayne Barnett',
     role : 'ounder & CEO',
     profileImg : 'wayne-barnett-founder-ceo.jpg'
 }
+
+let imgOne = document.createElement("img"); 
+imgOne.src = "img/wayne-barnett-founder-ceo.jpg"; 
+let srcOne = document.getElementById("userImgOne"); 
+srcOne.appendChild(imgOne); 
+
 document.getElementById('userOne').innerHTML = 'name:  ' + userOne.name + ' role: ' + userOne.role + ' img: ' + userOne.profileImg;
 console.log('name:  ' + userOne.name, 'role: ' + userOne.role, 'img: ' + userOne.profileImg);
+
 
 const userTwo = {
     name : 'Angela Caroll',
     role : 'Chief Editor',
-    profileImg : 'wayne-barnett-founder-ceo.jpg'
+    profileImg : 'angela-caroll-chief-editor.jpg'
 }
+
+let imgTwo = document.createElement("img"); 
+imgTwo.src = 'img/angela-caroll-chief-editor.jpg'
+let srcTwo = document.getElementById("userImgTwo"); 
+srcTwo.appendChild(imgTwo); 
 
 document.getElementById('userTwo').innerHTML = 'name:  ' + userTwo.name + ' role: ' + userTwo.role + 'img: ' + userTwo.profileImg;
 console.log('name:  ' + userTwo.name, 'role: ' + userTwo.role, 'img: ' + userTwo.profileImg);
@@ -45,8 +61,13 @@ console.log('name:  ' + userTwo.name, 'role: ' + userTwo.role, 'img: ' + userTwo
 const userThree = {
     name : 'Walter Gordon',
     role : 'Office Manager',
-    profileImg : 'wayne-barnett-founder-ceo.jpg'
+    profileImg : 'walter-gordon-office-manager.jpg'
 }
+
+let imgThree = document.createElement("img"); 
+imgThree.src = "img/walter-gordon-office-manager.jpg"; 
+let srcThree = document.getElementById("userImgThree"); 
+srcThree.appendChild(imgThree); 
 
 document.getElementById('userThree').innerHTML = 'name:  ' + userThree.name + ' role: ' + userThree.role +  ' img: ' + userThree.profileImg;
 console.log('name:  ' + userThree.name, 'role: ' + userThree.role,  'img: ' + userThree.profileImg);
@@ -54,35 +75,47 @@ console.log('name:  ' + userThree.name, 'role: ' + userThree.role,  'img: ' + us
 
 const userFour = {
     name : 'Angela Lopez ',
-    role : 'Social Media',
-    profileImg : 'wayne-barnett-founder-ceo.jpg'
+    role : 'Social Media Manager ',
+    profileImg : 'angela-lopez-social-media-manager.jpg'
 }
+
+let imgFour = document.createElement("img"); 
+imgFour.src = "img/angela-lopez-social-media-manager.jpg"; 
+let srcFour = document.getElementById("userImgFour"); 
+srcFour.appendChild(imgFour); 
 
 document.getElementById('userFour').innerHTML = 'name:  ' + userFour.name + ' role: ' + userFour.role +  ' img: ' + userFour.profileImg;
 console.log('name:  ' + userFour.name, 'role: ' + userFour.role,  'img: ' + userFour.profileImg);
 
 
-
 const userFive = {
     name : 'Scott Estrada',
     role : 'Developer',
-    profileImg : 'wayne-barnett-founder-ceo.jpg'
+    profileImg : 'scott-estrada-developer.jpg'
 }
+
+let imgFive = document.createElement("img"); 
+imgFive.src = "img/scott-estrada-developer.jpg"; 
+let srcFive = document.getElementById("userImgFive"); 
+srcFive.appendChild(imgFive); 
 
 document.getElementById('userFive').innerHTML = 'name:  ' + userFive.name + ' role: ' + userFive.role + ' img: ' + userFive.profileImg;
 console.log('name:  ' + userFive.name, 'role: ' + userFive.role,  'img: ' + userFive.profileImg);
 
 
-
 const userSix = {
     name : 'Barbara Ramos',
     role : 'Graphic Designer',
-    profileImg : 'wayne-barnett-founder-ceo.jpg'
+    profileImg : 'barbara-ramos-graphic-designer.jpg'
 }
+
+let imgSix = document.createElement("img"); 
+imgSix.src = "img/barbara-ramos-graphic-designer.jpg"; 
+let srcSix = document.getElementById("userImgSix"); 
+srcSix.appendChild(imgSix); 
 
 document.getElementById('userSix').innerHTML = 'name:  ' + userSix.name + ' role: ' + userSix.role +  ' img: ' + userSix.profileImg;
 console.log('name:  ' + userSix.name, 'role: ' + userSix.role,  'img: ' + userSix.profileImg);
-
 
 
 team.push(userOne, userTwo, userThree, userFour, userFive, userSix);
