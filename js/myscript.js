@@ -28,36 +28,42 @@ const userOne = {
     role : 'ounder & CEO',
     profileImg : 'wayne-barnett-founder-ceo.jpg'
 }
+console.log(userOne);
 
 const userTwo = {
     name : 'Angela Caroll',
     role : 'Chief Editor',
     profileImg : 'wayne-barnett-founder-ceo.jpg'
 }
+console.log(userTwo);
 
 const userThree = {
     name : 'Walter Gordon',
     role : 'Office Manager',
     profileImg : 'wayne-barnett-founder-ceo.jpg'
 }
+console.log(userThree);
 
 const userFour = {
     name : 'Angela Lopez ',
     role : 'Social Media',
     profileImg : 'wayne-barnett-founder-ceo.jpg'
 }
+console.log(userFour);
 
 const userFive = {
     name : 'Scott Estrada',
     role : 'Developer',
     profileImg : 'wayne-barnett-founder-ceo.jpg'
 }
+console.log(userFive);
 
 const userSix = {
     name : 'Barbara Ramos',
     role : 'Graphic Designer',
     profileImg : 'wayne-barnett-founder-ceo.jpg'
 }
+console.log(userSix);
 
 
 team.push(userOne, userTwo, userThree, userFour, userFive, userSix);
