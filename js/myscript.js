@@ -28,42 +28,50 @@ const userOne = {
     role : 'ounder & CEO',
     profileImg : 'wayne-barnett-founder-ceo.jpg'
 }
-console.log(userOne);
+console.log('name:  ' + userOne.name, 'role: ' + userOne.role, 'img: ' + userOne.profileImg);
 
 const userTwo = {
     name : 'Angela Caroll',
     role : 'Chief Editor',
     profileImg : 'wayne-barnett-founder-ceo.jpg'
 }
-console.log(userTwo);
+console.log('name:  ' + userTwo.name, 'role: ' + userTwo.role, 'img: ' + userTwo.profileImg);
+
+
 
 const userThree = {
     name : 'Walter Gordon',
     role : 'Office Manager',
     profileImg : 'wayne-barnett-founder-ceo.jpg'
 }
-console.log(userThree);
+console.log('name:  ' + userThree.name, 'role: ' + userThree.role,  'img: ' + userThree.profileImg);
+
 
 const userFour = {
     name : 'Angela Lopez ',
     role : 'Social Media',
     profileImg : 'wayne-barnett-founder-ceo.jpg'
 }
-console.log(userFour);
+console.log('name:  ' + userFour.name, 'role: ' + userFour.role,  'img: ' + userFour.profileImg);
+
+
 
 const userFive = {
     name : 'Scott Estrada',
     role : 'Developer',
     profileImg : 'wayne-barnett-founder-ceo.jpg'
 }
-console.log(userFive);
+console.log('name:  ' + userFive.name, 'role: ' + userFive.role,  'img: ' + userFive.profileImg);
+
+
 
 const userSix = {
     name : 'Barbara Ramos',
     role : 'Graphic Designer',
     profileImg : 'wayne-barnett-founder-ceo.jpg'
 }
-console.log(userSix);
+console.log('name:  ' + userSix.name, 'role: ' + userSix.role,  'img: ' + userSix.profileImg);
+
 
 
 team.push(userOne, userTwo, userThree, userFour, userFive, userSix);
