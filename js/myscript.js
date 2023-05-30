@@ -4,37 +4,37 @@ const team = [
 {
     name : 'Wayne Barnett',
     role : 'Founder & CEO',
-    profileImg : 'img/wayne-barnett-founder-ceo.jpg'
+    profileImg : 'wayne-barnett-founder-ceo.jpg'
 },
 
 {
     name : 'Angela Caroll',
     role : 'Chief Editor',
-    profileImg : 'img/angela-caroll-chief-editor.jpg'
+    profileImg : 'angela-caroll-chief-editor.jpg'
 },
 
 {
     name : 'Walter Gordon',
     role : 'Office Manager',
-    profileImg : 'img/walter-gordon-office-manager.jpg'
+    profileImg : 'walter-gordon-office-manager.jpg'
 },
 
 {
     name : 'Angela Lopez ',
     role : 'Social Media Manager ',
-    profileImg : 'img/angela-lopez-social-media-manager.jpg'
+    profileImg : 'angela-lopez-social-media-manager.jpg'
 },
 
 {
     name : 'Scott Estrada',
     role : 'Developer',
-    profileImg : 'img/scott-estrada-developer.jpg'
+    profileImg : 'scott-estrada-developer.jpg'
 },
 
 {
     name : 'Barbara Ramos',
     role : 'Graphic Designer',
-    profileImg : 'img/barbara-ramos-graphic-designer.jpg'
+    profileImg : 'barbara-ramos-graphic-designer.jpg'
 },
 ];
 console.log(team)
@@ -67,14 +67,13 @@ function addImgElement(){
     return newImgElement;
 }
 
-
 for (let i = 0; i < team.length; i++){
     const divElement = addElement();
     container.appendChild(divElement);
 
     const newImg = addImgElement();
     divElement.appendChild(newImg);
-    newImg.src = team[i].profileImg;
+    newImg.src = 'img/' + team[i].profileImg;
 
     const textElement = addTextElement();
     textElement.innerHTML = team[i].name;
